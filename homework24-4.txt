@@ -1,0 +1,11 @@
+Tổng hợp kiến thức:
+bước 1 tạo branch: git branch <branch name> 
+git branch -r : Liệt kê branch trên git server
+git branch -a : Liệt kê toàn bộ branch
+bước 2 chuyển sang nhánh được chỉ định:
+git checkout [<option>] <branch>
+hoặc
+git switch <branch>
+bước 3 tạo pull request, thêm người review
+sau khi người review thấy tài liệu trong nhánh branch ok sẽ cho phép merge nhánh phụ vào nhánh master
+đồng thời xóa nhánh phụ.
