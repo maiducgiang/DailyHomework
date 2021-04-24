@@ -1,0 +1,18 @@
+Tổng hợp kiến thức:
+bước 1 tạo branch: git branch <branch name> 
+git branch -r : Liệt kê branch trên git server
+git branch -a : Liệt kê toàn bộ branch
+bước 2 chuyển sang nhánh được chỉ định:
+git checkout [<option>] <branch>
+hoặc
+git switch <branch>
+bước 3 tạo pull request, thêm người review
+sau khi người review thấy tài liệu trong nhánh branch ok sẽ cho phép merge nhánh phụ vào nhánh master
+đồng thời xóa nhánh phụ.
+ngoài ra còn có: 
++ git fetch <name remote> để cập nhật thông tin của remote
++ git merge destination_branch_name (với destination_branch_name là tên nhánh muốn merge với nhánh hiện tại) kết hợp
+sự thay đổi của các commit từ lúc tách nhánh của nhánh hiện tại vào nhánh tách ra trước đó
++ git pull = git fetch + git merge
+	git pull destination_branch_name (destination_branch_name tên nhánh muốn merge)
+
