@@ -18,6 +18,7 @@
 		git switch -c <Tên nhánh mới>: tạo nhánh mới và chuyển sang nhánh mới luôn
 4. pull request/merge request
 	Là chức năng cho phép thông báo với người khác về các thay đổi mà mình đã đẩy lên kho Github của người sở hữu code đó (chủ repository)
+	Mục đích của việc tạo pull request: để đưa những file của bạn lên 1 host chung - nơi mọi người có quyền truy cập sẽ truy cập vào và cùng review, để lại comment trên những file đó
 5. git fetch
 	Cập nhập sự thay đổi thông tin của remote repository so với local repository
 	Câu lệnh: git fetch <name remote>
