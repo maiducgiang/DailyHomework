@@ -1,0 +1,33 @@
+1. git branch 
+	Dùng để phân nhánh, các nhánh không ảnh hưởng đến nhau, nên có thể làm việc đồng thời trên các nhánh của repo
+	Các câu lệnh:
+		git branch <Tên nhánh> : Tạo branch 
+		git branch : Liệt kê branch ở local 
+		git branch -r : Liệt kê branch trên git server 
+		git branch -a : Liệt kê toàn bộ branch
+2. git checkout 
+	Dùng để chuyển nhánh làm việc 
+	Các câu lệnh:
+		git checkout <Tên nhánh>: chuyển sang nhánh làm việc khác
+		git checkout -b <Tên nhánh mới>: tạo nhánh mới và chuyển sang nhánh đó luôn
+	=> thuận tiện hơn git branch vì git checkout -b có thể tạo nhánh mới và chuyển đến nhánh mới luôn, trong khi đó khi dùng git branch thì chỉ tạo được nhánh mới, trạng thái làm việc vẫn đang ở nhánh cũ
+3. git switch
+	Dùng để chuyển nhánh làm việc 
+	Các câu lệnh:
+		git switch <Tên nhánh>: chuyển sang nhánh làm việc khác
+		git switch -c <Tên nhánh mới>: tạo nhánh mới và chuyển sang nhánh mới luôn
+4. pull request/merge request
+	Là chức năng cho phép thông báo với người khác về các thay đổi mà mình đã đẩy lên kho Github của người sở hữu code đó (chủ repository)
+	Mục đích của việc tạo pull request: để đưa những file của bạn lên 1 host chung - nơi mọi người có quyền truy cập sẽ truy cập vào và cùng review, để lại comment trên những file đó
+5. git fetch
+	Cập nhập sự thay đổi thông tin của remote repository so với local repository
+	Câu lệnh: git fetch <name remote>
+6. git merge
+	Gộp (đồng bộ) 2 nhánh lại với nhau để giải quyết chung một nhiệm vụ
+	Câu lệnh: git merge destination_branch_name 
+		destination_branch_name là tên nhánh mà bạn muốn merge vào nhánh hiện tại
+7. git pull
+	git pull là lệnh hợp nhất các thay đổi từ Remote repository vào Local repository
+	git pull = git fetch + git merge
+	Câu lệnh: git pull destination_branch_name
+		destination_branch_name là tên nhánh mà bạn muốn merge vào nhánh hiện tại
