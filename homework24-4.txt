@@ -16,3 +16,4 @@ sự thay đổi của các commit từ lúc tách nhánh của nhánh hiện t�
 + git pull = git fetch + git merge
 	git pull destination_branch_name (destination_branch_name tên nhánh muốn merge)
 
+abcd
