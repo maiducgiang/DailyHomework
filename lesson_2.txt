@@ -31,3 +31,4 @@
 	git pull = git fetch + git merge
 	Câu lệnh: git pull destination_branch_name
 		destination_branch_name là tên nhánh mà bạn muốn merge vào nhánh hiện tại
+Mai Đức Giang: đã xem và thấy ok về nội dung
