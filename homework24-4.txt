@@ -17,3 +17,5 @@ sự thay đổi của các commit từ lúc tách nhánh của nhánh hiện t�
 	git pull destination_branch_name (destination_branch_name tên nhánh muốn merge)
 
 abcd
+
+*Review from Nguyễn Thị Kim Anh: Bài tổng hợp của bạn tương đối đầy đủ, nên thêm mục đích chính của git pull là gì
